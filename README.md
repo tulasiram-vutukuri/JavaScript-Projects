@@ -1,42 +1,84 @@
-# JavaScript Basics Projects
+# JavaScript Projects
 
-A collection of beginner JavaScript projects aimed at strengthening core concepts and tracking my learning progress over time.
-
----
-
-## About
-
-This repository is being built as part of my journey to learn and practice JavaScript fundamentals through small, hands-on projects.
-
-Projects will be added progressively, focusing on clarity, consistency, and practical understanding.
+A collection of JavaScript projects ranging from beginner to advanced levels, built to strengthen core concepts and track my learning progress.
 
 ---
 
-## Status
+## 📌 About
 
-This repository will be consistently updated as I continue learning new concepts.
+This repository contains multiple projects created while learning JavaScript, starting from basic concepts to more complex applications.
 
----
-
-## Planned Concepts
-
-* DOM manipulation
-* Event handling
-* Functions and control flow
-* Arrays and objects
-* Basic UI interactions
+Each project is designed to improve problem-solving skills, DOM manipulation, and real-world development practices.
 
 ---
 
-## Purpose
+## 🚧 Status
+
+This repository is actively updated with new projects over time as I continue learning and building.
+
+---
+
+## 🧠 Concepts Covered
+
+* DOM Manipulation
+* Event Handling
+* Functions & Control Flow
+* Arrays & Objects
+* Basic UI Interactions
+* Application Logic
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3 (Flexbox)
+* JavaScript (ES6+)
+
+---
+
+## ⚡ JavaScript Features Used
+
+* Arrow Functions
+* `let` / `const`
+* Template Literals
+* Event Handling
+* DOM Manipulation
+
+---
+
+## 📂 Projects
+
+### 🟢 Beginner
+
+```
+01-counter-app/
+```
+
+### 🟡 Intermediate
+
+```
+(more coming soon...)
+```
+
+### 🔴 Advanced
+
+```
+(more coming soon...)
+```
+
+---
+
+## 🎯 Purpose
 
 * Build a strong foundation in JavaScript
-* Practice by creating small, focused projects
-* Maintain a structured record of progress
+* Progress from basic to advanced problem-solving
+* Create real-world interactive applications
+* Maintain a structured record of learning progress
 
 ---
 
-## Author
+## 👤 Author
 
-Tulasi Ram Vutukuri
-LinkedIn: [www.linkedin.com/in/tulasi-ram-vutukuri](http://www.linkedin.com/in/tulasi-ram-vutukuri)
+**Tulasi Ram Vutukuri**
+🔗 LinkedIn: https://www.linkedin.com/in/tulasi-ram-vutukuri
