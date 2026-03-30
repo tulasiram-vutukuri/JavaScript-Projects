@@ -44,29 +44,7 @@ This repository is actively updated with new projects over time as I continue le
 * Template Literals
 * Event Handling
 * DOM Manipulation
-
----
-
-## 📂 Projects
-
-### 🟢 Beginner
-
-```
-01-counter-app/
-```
-
-### 🟡 Intermediate
-
-```
-(more coming soon...)
-```
-
-### 🔴 Advanced
-
-```
-(more coming soon...)
-```
-
+  
 ---
 
 ## 🎯 Purpose
