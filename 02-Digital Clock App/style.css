@@ -1,0 +1,89 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Segoe UI;
+}
+
+h1 {
+    background: linear-gradient(to right, #2c3e50, #6ea656);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.time-display {
+    display: flex;
+    margin-top: -25px;
+}
+
+.time-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.time {
+    margin-bottom: 0px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.divider {
+
+    font-size: 45px;
+    font-weight: 400;
+    color: #5e5e5e;
+
+}
+
+.sec {
+    color: #5e5e5e;
+    font-weight: normal;
+}
+
+.label {
+    font-weight: 700;
+    color: #5e5e5e;
+    margin-top: 2px;
+}
+
+.clock-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.date {
+    margin-bottom: 8px;
+    margin-top: 0px;
+    align-self: flex-start;
+
+}
+
+.style-date1 {
+    font-weight: bold;
+}
+
+.style-date2 {
+    color: #5e5e5e;
+    font-weight: 600;
+}
+
+.ampm-style {
+    font-size: 14px;
+    margin-top: 20px;   
+    font-style: italic;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+}
