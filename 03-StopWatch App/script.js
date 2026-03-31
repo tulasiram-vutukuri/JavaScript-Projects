@@ -12,9 +12,9 @@ let interval = null;
 let isRunning = false;
 
 function startFunction() {
-    if (isRunning) return;
+    if (isRunning || elapsedTime > 0) return;
 
-    startTime = Date.now() - elapsedTime;
+    startTime = Date.now();
 
     interval = setInterval(() => {
         elapsedTime = Date.now() - startTime;
@@ -24,18 +24,32 @@ function startFunction() {
     isRunning = true;
 }
 
-// ⏸ Pause Function
 function pauseFunction() {
-    clearInterval(interval);
-    isRunning = false;
+    if (isRunning) {
+        clearInterval(interval);
+        isRunning = false;
+        pauseBtn.textContent = "Resume";
+    } else if (elapsedTime > 0) {
+        // Resume only if already started
+        startTime = Date.now() - elapsedTime;
+
+        interval = setInterval(() => {
+            elapsedTime = Date.now() - startTime;
+            updateDisplay();
+        }, 100);
+
+        isRunning = true;
+        pauseBtn.textContent = "Pause";
+    }
 }
 
-// 🔄 Reset Function
 function resetFunction() {
     clearInterval(interval);
     startTime = 0;
     elapsedTime = 0;
     isRunning = false;
+
+    pauseBtn.textContent = "Pause";
 
     updateDisplay();
 }
@@ -58,14 +72,14 @@ startBtn.addEventListener("click", startFunction);
 pauseBtn.addEventListener("click", pauseFunction);
 resetBtn.addEventListener("click", resetFunction);
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
     if (event.code === "Space") {
         event.preventDefault();
 
-        if (isRunning) {
-            pauseFunction();
+        if (!isRunning && elapsedTime === 0) {
+            startFunction();       // first start
         } else {
-            startFunction();
+            pauseFunction();       // pause / resume
         }
     }
 });
