@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/88f0c619ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="heading">StopWatch</h1>
+        <div class="content">
+            <div class="hint">
+                <p>Press Space to Start/Pause</p>
+            </div>
+
+            <div class="stop-watch-container">
+                <div class="time-cont">
+                    <h1 class="time-style" id="hrsText">00</h1>
+                    <p class="label">Hours</p>
+                </div>
+                <div class="time-cont1">
+                    <p class="time-style1">:</p>
+                </div>
+                <div class="time-cont">
+                    <h1 class="time-style" id="minText">00</h1>
+                    <p class="label">Minutes</p>
+                </div>
+                <div class="time-cont1">
+                    <p class="time-style1">:</p>
+                </div>
+                <div class="time-cont">
+                    <h1 class="time-style" id="secText">00</h1>
+                    <p class="label">Seconds</p>
+                </div>
+            </div>
+            <div class="control-cont">
+
+                <button class="btn btn1" id="startbtn">Start <i class="fa-solid fa-play"></i></button>
+                <button class="btn btn2" id="pauseBtn">Pause <i class="fa-solid fa-pause"></i></button>
+                <div class="btn-second-cont">
+                    <button class="btn btn3" id="resetBtn">Reset <i class="fa-solid fa-arrow-rotate-left"></i> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
